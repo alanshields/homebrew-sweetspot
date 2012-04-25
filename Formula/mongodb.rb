@@ -90,6 +90,10 @@ class Mongodb < Formula
   <string>#{var}/log/mongodb/output.log</string>
   <key>StandardOutPath</key>
   <string>#{var}/log/mongodb/output.log</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>TZ</key><string>UTC</string>
+  </dict>
 </dict>
 </plist>
 EOS
